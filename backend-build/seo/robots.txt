@@ -1,0 +1,10 @@
+# visionquantech.com — robots.txt
+# Upload to the web root (public_html/robots.txt).
+User-agent: *
+Allow: /
+
+# Keep crawlers out of the backend and admin panel.
+Disallow: /api/
+Disallow: /admin/
+
+Sitemap: https://visionquantech.com/sitemap.xml

@@ -1,0 +1,18 @@
+<?php
+// ============================================================================
+// Copy this file to  private/llm.php   OUTSIDE the web root (one level above
+// public_html), then paste your real key. Never commit the real file.
+// Alternatively set env vars: VQ_LLM_BASE_URL, VQ_LLM_API_KEY, VQ_LLM_MODEL.
+// ============================================================================
+return [
+    // OpenAI-compatible base URL. Two ready options:
+    //   OpenRouter (cheap, many models):  https://api.openrouter.ai/v1
+    //   OpenAI direct:                    https://api.openai.com/v1
+    'base_url' => 'https://api.openrouter.ai/v1',
+
+    // Paste the API key here (OpenRouter or OpenAI key matching base_url).
+    'api_key'  => 'PASTE_YOUR_KEY_HERE',
+
+    // Model name. OpenRouter: 'openai/gpt-4o-mini'  |  OpenAI direct: 'gpt-4o-mini'
+    'model'    => 'openai/gpt-4o-mini',
+];

@@ -1,0 +1,37 @@
+<!-- ============================================================================
+  VisionQuantech — JSON-LD structured data (Schema.org)
+  Paste this block into the <head> of public_html/index.html (before </head>).
+  Gives Google/ChatGPT-style answer engines an Organization + WebSite entity.
+============================================================================= -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://visionquantech.com/#organization",
+      "name": "VisionQuantech",
+      "url": "https://visionquantech.com/",
+      "description": "VisionQuantech is an AI research organisation building India's AGI-ASI future — EnterChat, YOU.PDF, AI agents and quantum consciousness research.",
+      "email": "Contact@visionquantech.com",
+      "sameAs": [
+        "https://github.com/shivay00001"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "Contact@visionquantech.com",
+        "contactType": "sales",
+        "areaServed": "IN"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://visionquantech.com/#website",
+      "url": "https://visionquantech.com/",
+      "name": "VisionQuantech",
+      "publisher": { "@id": "https://visionquantech.com/#organization" },
+      "inLanguage": "en"
+    }
+  ]
+}
+</script>

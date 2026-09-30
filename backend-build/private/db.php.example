@@ -1,0 +1,19 @@
+<?php
+// ============================================================================
+// DATABASE CREDENTIALS — EXAMPLE FILE
+// ----------------------------------------------------------------------------
+// 1. Copy this file to private/db.php  (OUTSIDE the web root, e.g.
+//    /home/<cpanel-user>/private/db.php — one level ABOVE public_html).
+// 2. Fill in the real values from cPanel > MySQL Databases.
+// 3. NEVER commit the real file to git.
+//
+// api/config.php also honours the DB_HOST / DB_NAME / DB_USER / DB_PASS
+// environment variables, which take precedence when set.
+// ============================================================================
+
+return [
+    'host' => 'localhost',          // usually "localhost" on cPanel shared hosting
+    'name' => 'visionqu_dbname',    // <-- CHANGE ME
+    'user' => 'visionqu_dbuser',    // <-- CHANGE ME
+    'pass' => 'CHANGEME',           // <-- CHANGE ME
+];
